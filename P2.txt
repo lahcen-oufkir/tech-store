@@ -1,0 +1,29 @@
+Continue using the existing project architecture and SRS.
+
+Implement the public-facing website.
+
+Features:
+- Home page
+- About page
+- Services page
+- Products page
+- Product details page
+- Contact page
+- Login
+- Registration
+- Logout
+
+Requirements:
+- Responsive Bootstrap 5 design.
+- Reusable navbar and footer.
+- Server-side validation.
+- Password hashing.
+- Prepared SQL statements.
+- Session-based authentication.
+- Role support (Customer and Admin).
+- Friendly error messages.
+- Simple but professional UI.
+
+Do not implement the shopping cart or admin dashboard yet.
+
+Keep the code modular and consistent with the existing architecture.

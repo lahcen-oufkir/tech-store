@@ -1,0 +1,15 @@
+You have already read the attached Software Requirements Specification (SRS). Treat it as the single source of truth.
+
+Your task is to create the complete project foundation only.
+
+Requirements:
+- Use HTML5, CSS3, Bootstrap 5, Vanilla JavaScript, PHP 8, and MySQL.
+- Do NOT use Laravel, CodeIgniter, React, Vue, Tailwind, Composer packages, or other frameworks.
+- Organize the project using a simple MVC-inspired structure suitable for beginners.
+- Create the folder structure, configuration files, routing approach, reusable header/footer, database connection class, helper functions, session management, and coding conventions.
+- Design the MySQL database schema according to the SRS.
+- Generate the SQL script with tables, primary keys, foreign keys, indexes, and sample data.
+- Explain the architecture decisions.
+- Do NOT implement business features yet.
+
+The result should be a clean project skeleton ready for development.

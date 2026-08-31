@@ -1,0 +1,15 @@
+# Turn on URL rewriting for the pretty URLs
+Options -Indexes
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# Route API requests to the dedicated API handler
+RewriteRule ^api/(.*)$ api/index.php?url=$1 [QSA,L]
+
+# Serve existing files (CSS, JS, images) directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Route everything else to the front controller
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]

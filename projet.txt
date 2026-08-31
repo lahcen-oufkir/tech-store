@@ -1,0 +1,174 @@
+
+
+# Software Requirements Specification (SRS)
+
+## Project Information
+
+**Project Name:** TechnoMeits Store Management System (TSMS)
+
+**Version:** 1.0
+
+**Document Type:** Software Requirements Specification
+
+**Purpose:**
+Design and develop a modern web application for a local computer and smartphone shop located in Laâyoune, Morocco. The application enables customers to browse products, request repair services, contact the shop, and manage their orders, while administrators can manage products, services, customers, and repair requests through a secure dashboard.
+
+---
+
+# 1. Introduction
+
+## Background
+
+TechnoMeits is a local IT shop specializing in selling computers, smartphones, accessories, and used devices. In addition to retail, it offers technical services such as computer repair, smartphone repair, operating system installation, software troubleshooting, virus removal, and Wi-Fi/network installation.
+
+Currently, most customer interactions are handled in person or by phone. This project digitizes these operations with a simple but professional web application.
+
+---
+
+## Objectives
+
+The system should:
+
+* Present the shop professionally online.
+* Display products and services.
+* Allow customers to submit repair requests.
+* Allow customers to contact the shop.
+* Allow administrators to manage products and requests.
+* Be responsive and easy to maintain.
+* Demonstrate full-stack development skills suitable for a portfolio.
+
+---
+
+# 2. Scope
+
+The project is intended for educational and portfolio purposes but should be designed as if it were a production-ready application for a small business.
+
+The application will include:
+
+* Public website
+* Customer accounts
+* Shopping cart
+* Repair request system
+* Contact system
+* Admin dashboard
+* REST API
+* MySQL database
+
+Payment processing and online payments are **out of scope** for version 1. Orders can be marked as "Pay in Store" or "Cash on Delivery."
+
+---
+
+# 3. Target Users
+
+### Visitor
+
+Can:
+
+* Browse products
+* View services
+* Search products
+* Contact the shop
+* Register
+
+---
+
+### Customer
+
+Can:
+
+* Log in
+* Manage profile
+* Add products to cart
+* Place orders
+* Submit repair requests
+* View order history
+* Track repair request status
+
+---
+
+### Administrator
+
+Can:
+
+* Manage products
+* Manage categories
+* Manage services
+* Manage repair requests
+* Manage customer accounts
+* View messages
+* Update order status
+* Access statistics dashboard
+
+---
+
+# 4. Technology Stack
+
+### Frontend
+
+* HTML5
+* CSS3
+* Bootstrap 5
+* Vanilla JavaScript
+
+### Backend
+
+* PHP 8.x
+* MVC architecture (without frameworks)
+
+### Database
+
+* MySQL
+
+### Server
+
+* Apache (XAMPP or WAMP for development)
+
+### Tools
+
+* VS Code
+* Git
+* GitHub
+* Postman (API testing)
+* OpenCode (implementation assistant)
+
+---
+
+# 5. Design Principles
+
+The application must be:
+
+* Clean
+* Responsive
+* Lightweight
+* Easy to navigate
+* Mobile-friendly
+* Professional
+* Easy to extend
+
+No unnecessary animations or complex JavaScript frameworks.
+
+---
+
+# 6. Core Modules
+
+The system is divided into eight modules:
+
+1. Authentication
+2. Product Catalog
+3. Shopping Cart
+4. Orders
+5. Repair Requests
+6. Contact System
+7. Customer Dashboard
+8. Admin Dashboard
+
+Each module should be independent and reusable.
+
+---
+
+## Version 1 Goals
+
+The first release focuses on delivering a polished, maintainable application rather than adding every possible feature. Future versions can introduce online payments, appointment scheduling, inventory alerts, and multilingual support.
+
+---
+

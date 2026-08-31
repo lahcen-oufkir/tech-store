@@ -1,0 +1,19 @@
+# Environment / IDE
+.idea/
+.vscode/
+*.log
+
+# Uploaded images
+# - Seeded product photos are committed so the demo works out of the box
+# - Admin uploads (prod_*) stay untracked
+public/uploads/*
+!public/uploads/.gitkeep
+!public/uploads/*.jpg
+!public/uploads/*.png
+!public/uploads/*.webp
+!public/uploads/*.gif
+
+# Hero / static images used by the site templates are committed
+public/assets/images/*
+!public/assets/images/.gitkeep
+!public/assets/images/hero.jpg

@@ -1,0 +1,197 @@
+/* ============================================================
+   TechnoMeits Store - custom styles (Bootstrap 5 base)
+   ============================================================ */
+
+:root {
+    --brand-color: #0d6efd;
+    --brand-dark: #0b5ed7;
+}
+
+body {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    overflow-x: hidden;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+    background: linear-gradient(120deg, #0f2027 0%, #203a43 45%, #2c5364 100%);
+    color: #fff;
+    padding: 5rem 0;
+    margin-inline: calc(-1 * (100vw - 100%) / 2);
+    border-radius: 0;
+}
+
+.hero h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+
+.hero-img-wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.hero-img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1rem;
+    box-shadow: 0 1.25rem 2.5rem rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+@media (min-width: 992px) {
+    .hero-img {
+        height: 420px;
+    }
+}
+
+/* ---------- Product cards ---------- */
+.product-card {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 0.75rem;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    height: 100%;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.12);
+}
+
+.product-image {
+    height: 200px;
+    object-fit: cover;
+    background: #f5f7fa;
+}
+
+.product-placeholder {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f7fa;
+    color: #adb5bd;
+    font-size: 3rem;
+}
+
+.price {
+    color: var(--brand-dark);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.old-price {
+    color: #adb5bd;
+    text-decoration: line-through;
+    font-size: 0.9rem;
+}
+
+/* ---------- Feature / service cards ---------- */
+.feature-card {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    text-align: center;
+    height: 100%;
+    transition: box-shadow 0.15s ease;
+}
+
+.feature-card:hover {
+    box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+    font-size: 2.2rem;
+    color: var(--brand-color);
+}
+
+/* ---------- Section headings ---------- */
+.section-title {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+/* ---------- Auth forms ---------- */
+.auth-card {
+    max-width: 480px;
+    margin: 2rem auto;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+/* ---------- Footer ---------- */
+.footer-link {
+    color: #9aa7b3;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* ---------- Cart table ---------- */
+.qty-input {
+    width: 70px;
+    text-align: center;
+}
+
+/* ---------- Badges / status colors ---------- */
+.status-badge {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+/* ---------- Admin sidebar ---------- */
+.admin-body {
+    background: #f4f6f9;
+}
+
+.admin-sidebar {
+    background: #1c2733;
+    min-height: calc(100vh - 56px);
+}
+
+.admin-sidebar .nav-link {
+    color: #b6c2cf;
+    border-radius: 0.5rem;
+    margin-bottom: 0.25rem;
+    padding: 0.6rem 0.9rem;
+}
+
+.admin-sidebar .nav-link i {
+    margin-right: 0.5rem;
+}
+
+.admin-sidebar .nav-link:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.admin-sidebar .nav-link.active {
+    color: #fff;
+    background: var(--brand-color);
+}
+
+.stat-card {
+    border-radius: 0.75rem;
+    border: none;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.06);
+}
+
+.stat-card .stat-icon {
+    font-size: 2rem;
+    opacity: 0.9;
+}
+
+/* ---------- Tables ---------- */
+.table thead th {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    background: #f8f9fa;
+}

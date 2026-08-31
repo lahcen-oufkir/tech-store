@@ -1,0 +1,25 @@
+Continue the project without changing the architecture.
+
+Implement the business functionality.
+
+Modules:
+- Product categories
+- Product management
+- Product search
+- Shopping cart
+- Checkout (Cash on Delivery / Pay in Store only)
+- Customer dashboard
+- Order history
+- Repair request submission
+- Repair request tracking
+- Contact message submission
+
+Requirements:
+- Maintain normalized database usage.
+- Validate all user inputs.
+- Prevent SQL Injection and XSS.
+- Reuse existing components whenever possible.
+- Keep JavaScript minimal.
+- Bootstrap should provide most UI styling.
+
+Focus on simplicity and maintainability rather than advanced features.

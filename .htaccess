@@ -1,0 +1,15 @@
+# Protect non-public folders when running from the project root
+Options -Indexes
+
+# Serve the application when the root folder is requested
+DirectoryIndex public/index.php
+
+RewriteEngine On
+
+# Block access to private folders directly
+RewriteRule ^(app|config|database)/ - [F,L]
+
+# Redirect anything else into the public folder
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ public/$1 [L]
